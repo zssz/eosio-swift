@@ -9,7 +9,7 @@
 import Foundation
 import CommonCrypto
 
-public extension Data {
+extension Data {
 
     private static let hexAlphabet = "0123456789abcdef".unicodeScalars.map { $0 }
 
